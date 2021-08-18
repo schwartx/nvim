@@ -1,0 +1,43 @@
+{
+	"suggest.noselect": false,
+	"diagnostic.errorSign": "✘",
+	"diagnostic.warningSign": "⚠",
+	"diagnostic.infoSign": "",
+	"diagnostic.checkCurrentLine": true,
+	"html.autoClosingTags": true,
+	"coc.preferences.formatOnSaveFiletypes": [
+		"javascript",
+		"html",
+		"json",
+		"css",
+		"scss",
+		"go"
+	],
+	"languageserver": {
+		"clangd": {
+			"command": "clangd",
+			"rootPatterns": [
+				"compile_flags.txt",
+				"compile_commands.json"
+			],
+			"filetypes": [
+				"c",
+				"cc",
+				"cpp",
+				"c++",
+				"objc",
+				"objcpp"
+			]
+		},
+		"golang": {
+			"command": "/home/schwarz/go/bin/gopls",
+			"rootPatterns": [
+				"go.mod"
+			],
+			"filetypes": [
+				"go"
+			]
+		}
+	},
+	"clangd.semanticHighlighting": true
+}
