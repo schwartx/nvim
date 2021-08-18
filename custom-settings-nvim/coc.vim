@@ -71,3 +71,15 @@ imap <C-j> <Plug>(coc-snippets-expand-jump)
 xmap <leader>x  <Plug>(coc-convert-snippet)
 " }}
 
+" let g:coc_global_extensions = [
+"       \'coc-snippet',
+"       \'coc-html',
+"       \'coc-highlight',
+"       \'coc-git',
+"       \'coc-yaml',
+"       \'coc-tsserver', 
+"       \'coc-json', 
+"       \'coc-css', 
+"       \'coc-clangd', 
+"       \'coc-angular'
+"       \]
