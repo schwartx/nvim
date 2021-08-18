@@ -55,7 +55,7 @@ let g:go_highlight_operators = 1
 
 let g:go_fold_enable = []
 
-nmap <C-g> :GoDecls<cr>
+" nmap <C-g> :GoDecls<cr>
 imap <C-g> <esc>:<C-u>GoDecls<cr>
 
 
