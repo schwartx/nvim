@@ -14,6 +14,10 @@ nmap <silent> ]c <Plug>(coc-diagnostic-next)
 
 nmap [g <Plug>(coc-git-prevchunk)
 nmap ]g <Plug>(coc-git-nextchunk)
+" show chunk diff at current position
+nmap gs <Plug>(coc-git-chunkinfo)
+" show commit contains current position
+nmap gc <Plug>(coc-git-commit)
 
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
