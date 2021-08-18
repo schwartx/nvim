@@ -29,6 +29,7 @@ call plug#end()
 
 
 source $HOME/.config/nvim/custom-settings-nvim/ui.vim
+source $HOME/.config/nvim/custom-settings-nvim/tagbar.vim
 source $HOME/.config/nvim/custom-settings-nvim/utilities.vim
 source $HOME/.config/nvim/custom-settings-nvim/vim-go.vim
 source $HOME/.config/nvim/custom-settings-nvim/coc.vim
